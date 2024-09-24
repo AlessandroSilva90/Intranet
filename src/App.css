@@ -1,0 +1,411 @@
+
+@media only screen and (min-device-width :600px) {
+
+  #root {
+    min-width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    /* padding: 2rem; */
+    text-align: center;
+    background-color: white;
+  }
+  .container {
+    min-height: 35rem;
+  }
+  
+  .secondlayerContentMain{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .secondlayerContent{
+    padding: 3rem;
+    max-width: 1280px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .col{
+    display: flex !important;
+    align-items: center !important;
+    align-content: center !important;
+    justify-content: center !important;
+  
+  }
+  
+  .modal-content{
+    width: 450px;
+    height: 450px;
+    background-color: transparent !important;
+    border: none !important;
+    background-size: 500px 500px;
+  }
+  .modal-header{
+    border: none !important;
+  }
+  .modal-footer{
+    border: none !important;
+  }
+
+  .btnClose{
+    background-color: #DB3035 !important;
+    border:none !important;
+  }
+  
+  .sistemContents{
+    width: 100%;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: white; */
+    background-color: #d8d6d6;
+    gap: 30px;
+    border-radius: 1rem;
+  }
+  .sistemComponent{
+    width: 80%;
+    display: flex;
+    border-radius:.5rem ;
+    display: flex;
+    padding: .5rem;
+    justify-content: flex-start;
+    gap: 10px;
+    background-color: white;
+    color: #DB3035;
+    font-weight: 700;
+    align-items: center;
+  }
+  .sistemComponent {
+    text-decoration: none;
+    /* color: inherit; */
+  
+  }
+  
+  .sistemComponent img{
+    width: 30px;
+  }
+  .sistemComponent:hover{
+    background-color: #DB3035;
+    color: white;
+  }
+
+/* SETANDO AS IMAGENS NAS DIVS */
+
+  .imgIcon1{
+    width: 30px;
+    background-image: url('./assets/icons/022.png') ;
+    background-size: 30px 30px;
+    height: 30px;
+    
+  }
+  .imgIcon2{
+    width: 30px;
+    background-image: url('./assets/icons/099.png') ;
+    background-size: 30px 30px;
+    height: 30px;
+  }
+  .imgIcon3{
+    width: 30px;
+    background-image: url('./assets/icons/13.png') ;
+    background-size: 30px 30px;
+    height: 30px;
+  }
+  .imgIcon4{
+    width: 30px;
+    background-image: url('./assets/icons/077.png') ;
+    background-size: 30px 30px;
+    height: 30px;
+  }
+  .imgIcon5{
+    width: 30px;
+    background-image: url('./assets/ramais.png') ;
+    background-size: 30px 30px;
+    height: 30px;
+  }
+  .imgIcon6{
+    width: 30px;
+    background-image: url('./assets/calendario.png') ;
+    background-size: 30px 30px;
+    height: 30px;
+  }
+  
+  /* HOVER DAS IMAGENS DO MENU DE SISTEMAS */
+  .sistemComponent:hover .imgIcon1{
+    background-image: url('./assets/icons/01.png');
+    color: white;
+  }
+  .sistemComponent:hover .imgIcon2{
+    background-image: url('./assets/icons/10.png');
+    color: white;
+  }
+  .sistemComponent:hover .imgIcon3{
+    background-image: url('./assets/icons/14.png');
+    color: white;
+  }
+  .sistemComponent:hover .imgIcon4{
+    background-image: url('./assets/icons/08.png');
+    color: white;
+  }
+  .sistemComponent:hover .imgIcon5{
+    width: 30px;
+    background-image: url('./assets/ramal.png') ;
+    background-size: 30px 30px;
+    height: 30px;
+  }
+  .sistemComponent:hover .imgIcon6{
+    width: 30px;
+    background-image: url('./assets/calendarioWhite.png') ;
+    background-size: 30px 30px;
+    height: 30px;
+  }
+  /* XXXXXXXXXXXXXXX FIM XXXXXXXXXXXXXXXXXXX */
+
+  .titleBar{
+    background-color: #DB3035;
+    color: white;
+    font-weight:700;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .sistemsView{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+  .sistemsView img{
+    width: 100px;
+  }
+  
+  .menulink{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100px;
+    min-width: 100px;
+    color: #DB3035;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform .2s;
+  }
+
+  .menulink:hover{
+    transform: scale(1.2);
+  }
+  
+  .carousel-inner{
+    border-radius: 1rem;
+  }
+}
+
+@media only screen and (max-device-width :600px) {
+/* CELULAR */
+
+#root {
+  min-width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  background-color: white;
+}
+.container {
+  min-height: 35rem;
+}
+
+.secondlayerContentMain{
+  background-color: red;
+  /* padding: 1rem; */
+  /* width: 100%; */
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+}
+
+.secondlayerContent{
+  padding-top: 3rem;
+  /* max-width: 1280px !important; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* .col{
+  display: flex !important;
+  align-items: center !important;
+  align-content: center !important;
+  justify-content: center !important; 
+} */
+
+.modal-content{
+  width: 450px;
+  height: 450px;
+  background-color: transparent !important;
+  border: none !important;
+  background-size: 500px 500px;
+}
+.modal-header{
+  border: none !important;
+}
+.modal-footer{
+  border: none !important;
+}
+.btnClose{
+  background-color: #DB3035 !important;
+  border:none !important;
+}
+
+.sistemContents{
+  width: 100%;
+  min-height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: white; */
+  /* background-color: #d8d6d6; */
+  gap: 30px;
+  border-radius: 1rem;
+}
+.sistemComponent{
+  width: 80%;
+  display: flex;
+  border-radius:.5rem ;
+  display: flex;
+  padding: .8rem;
+  justify-content: flex-start;
+  gap: 10px;
+  background-color: #DB3035;
+  color: white;
+  font-weight: 700;
+  align-items: center;
+}
+.sistemComponent {
+  text-decoration: none;
+  /* color: inherit; */
+}
+
+.sistemComponent img{
+  width: 30px;
+}
+.sistemComponent:hover{
+  background-color: #DB3035;
+  color: white;
+}
+
+/* SETANDO AS IMAGENS NAS DIVS */
+
+.imgIcon1{
+  width: 30px;
+  background-image: url('./assets/icons/01.png') ;
+  background-size: 30px 30px;
+  height: 30px;
+}
+.imgIcon2{
+  width: 30px;
+  background-image: url('./assets/icons/10.png') ;
+  background-size: 30px 30px;
+  height: 30px;
+}
+.imgIcon3{
+  width: 30px;
+  background-image: url('./assets/icons/14.png') ;
+  background-size: 30px 30px;
+  height: 30px;
+}
+.imgIcon4{
+  width: 30px;
+  background-image: url('./assets/icons/08.png') ;
+  background-size: 30px 30px;
+  height: 30px;
+}
+.imgIcon5{
+  width: 30px;
+  background-image: url('./assets/ramal.png') ;
+  background-size: 30px 30px;
+  height: 30px;
+}
+
+.imgIcon6{
+  width: 30px;
+  background-image: url('./assets/calendario.png') ;
+  background-size: 30px 30px;
+  height: 30px;
+}
+
+.titleBar{
+  background-color: #DB3035;
+  color: white;
+  font-weight:700;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sistemsView{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.sistemsView img{
+  width: 100px;
+}
+
+.menulink{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100px;
+  min-width: 100px;
+  color: #DB3035;
+  text-decoration: none;
+  cursor: pointer;
+  padding-bottom: 50px;
+  transition: transform .2s;
+}
+.menulink:hover{
+  transform: scale(1.2);
+
+}
+
+.carousel-inner{
+  border-radius: 1rem;
+}
+
+img{
+  /* width: 100%; */
+  position: relative;
+}
+
+.carousel-item img{
+  width: 400px !important;
+}
+
+
+}

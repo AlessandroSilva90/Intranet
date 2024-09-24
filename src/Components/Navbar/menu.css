@@ -1,0 +1,50 @@
+.firstContent{
+    background-color: #820909;
+    /* display: flex;
+    flex-direction: column; */
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.firstContent img{
+    width: 250px;
+}
+
+.secondContent {
+    background-color: #DB3035;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.secondContent label{
+    cursor: pointer;
+}
+
+.navs{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 700;
+    /* padding: .5rem; */
+    /* background-color: blue; */
+}
+.navs label{
+    width: 100%;
+    padding: .5rem;
+    /* border-left: 1px solid white; */
+    border-right: 1px solid white;
+}
+.navs label:hover{
+    background-color: #F2414A;
+}
+
+.navs a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
